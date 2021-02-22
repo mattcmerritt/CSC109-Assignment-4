@@ -43,6 +43,12 @@ public class StudentTest {
 		System.out.println("Charles's Grade: " + charles.getCurrentLetterGrade());
 		System.out.println(daniel);
 		System.out.println("Daniel's Grade: " + daniel.getCurrentLetterGrade());
+		
+		System.out.println();
+		
+		Assignment homework = new Assignment("Homework 1", 5, 6);
+		
+		System.out.println(homework);
 	}
 
 }
