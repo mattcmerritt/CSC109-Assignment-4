@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Student {
 	
@@ -9,19 +10,37 @@ public class Student {
 	private int pointsEarned;
 	private int totalPoints;
 	
+	private ArrayList<Assignment> assignments;
+	
 	public Student(String name, String email, int year) {
 		this.name = name;
 		this.email = email;
 		this.year = year;
 		
+		assignments = new ArrayList<Assignment>();
+		
 		pointsEarned = 0;
 		totalPoints = 0;
 	}
 	
-	// adding grades into data
-	public void addGrade(int receivedPoints, int possiblePoints) {
-		pointsEarned += receivedPoints;
-		totalPoints += possiblePoints;
+	// updates the variables used to calculate the students average
+	// goes through all assignments in case if previous assignments change
+	public void updateGrade() {
+		int newPointsEarned = 0;
+		int newTotalPoints = 0;
+		for (int i = 0; i < assignments.size(); i++) {
+			Assignment currentAssignment = assignments.get(i);
+			newPointsEarned += currentAssignment.getPointsEarned();
+			newTotalPoints += currentAssignment.getTotalPoints();
+		}
+		pointsEarned = newPointsEarned;
+		totalPoints = newTotalPoints;
+	}
+	
+	// add a new Assignment into the collection
+	public void addAssignment(Assignment assignment) {
+		assignments.add(assignment);
+		updateGrade();
 	}
 	
 	// getting grade as number
