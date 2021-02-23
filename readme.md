@@ -6,10 +6,11 @@ This repository was made to practice using branches and pull requests. It includ
 
 ## About the Code
 
-The starter code has been taken from Assignment 2, and it can be found at https://github.com/mattcmerritt/CSC109-Assignment-2. It consists of three classes:
+The starter code has been taken from Assignment 2, and it can be found at https://github.com/mattcmerritt/CSC109-Assignment-2. It consists of four classes:
 * ``StudentTest.java``: Driver class with example students
 * ``Student.java``: Contains information including name, email, year, and current grade
 * ``Assignment.java``: Contains infomation including name, total points, and points earned
+* ``Classroom.java``: Contains information including name and roster
 
 ## How to Run
 
@@ -49,4 +50,7 @@ Charles (Email: charles@example.com), Year 2, Average: 87.0
 Charles's Grade: B
 Daniel (Email: daniel@example.com), Year 4, Average: 75.0
 Daniel's Grade: C
+
+Math Class; Students: Alice, Bob, Charles, Daniel
+Empty Class; Students: No students enrolled
 ```

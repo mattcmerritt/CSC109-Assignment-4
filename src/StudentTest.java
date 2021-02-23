@@ -47,6 +47,14 @@ public class StudentTest {
 		System.out.println("Charles's Grade: " + charles.getCurrentLetterGrade());
 		System.out.println(daniel);
 		System.out.println("Daniel's Grade: " + daniel.getCurrentLetterGrade());
+		
+		System.out.println();
+		
+		Classroom mathClass = new Classroom("Math Class", new Student[] {alice, bob, charles, daniel});
+		Classroom emptyClass = new Classroom("Empty Class", new Student[] {});
+		
+		System.out.println(mathClass);
+		System.out.println(emptyClass);
 	}
 
 }
