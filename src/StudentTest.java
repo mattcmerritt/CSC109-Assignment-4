@@ -55,6 +55,9 @@ public class StudentTest {
 		
 		System.out.println(mathClass);
 		System.out.println(emptyClass);
+		
+		System.out.println(mathClass.getName() + " Average: " + mathClass.getClassroomAverage());
+		System.out.println(emptyClass.getName() + " Average: " + emptyClass.getClassroomAverage());
 	}
 
 }
