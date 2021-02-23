@@ -55,4 +55,14 @@ Math Class; Students: Alice, Bob, Charles, Daniel
 Empty Class; Students: No students enrolled
 Math Class Average: 65.5
 Empty Class Average: 0.0
+
+Alice (Email: alice@example.com), Year 1, Average: 100.0
+Alice's Grade: A
+Bob (Email: bob@example.com), Year 3, Average: 46.666666666666664
+Bob's Grade: F
+Charles (Email: charles@example.com), Year 2, Average: 88.5
+Charles's Grade: B
+Daniel (Email: daniel@example.com), Year 4, Average: 76.66666666666667
+Daniel's Grade: C
+Math Class Average: 77.95833333333333
 ```
