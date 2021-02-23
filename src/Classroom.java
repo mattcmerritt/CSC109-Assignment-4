@@ -28,6 +28,17 @@ public class Classroom {
 		return result;
 	}
 	
+	public void addAssignmentForClassroom(String name, int[] pointsEarned, int totalPoints) {
+		if (pointsEarned.length == roster.length) {
+			for (int i = 0; i < roster.length; i++) {
+				roster[i].addAssignment(new Assignment(name, pointsEarned[i], totalPoints));
+			}
+		}
+		else {
+			System.out.println("Every student needs to receive a score.");
+		}
+	}
+	
 	public double getClassroomAverage() {
 		double sum = 0;
 		

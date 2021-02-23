@@ -58,6 +58,23 @@ public class StudentTest {
 		
 		System.out.println(mathClass.getName() + " Average: " + mathClass.getClassroomAverage());
 		System.out.println(emptyClass.getName() + " Average: " + emptyClass.getClassroomAverage());
+		
+		System.out.println();
+		
+		mathClass.addAssignmentForClassroom("Test 1", new int[] {100, 70, 90, 80}, 100);
+		
+		System.out.println(alice);
+		System.out.println("Alice's Grade: " + alice.getCurrentLetterGrade());
+		System.out.println(bob);
+		System.out.println("Bob's Grade: " + bob.getCurrentLetterGrade());
+		System.out.println(charles);
+		System.out.println("Charles's Grade: " + charles.getCurrentLetterGrade());
+		System.out.println(daniel);
+		System.out.println("Daniel's Grade: " + daniel.getCurrentLetterGrade());
+		
+		System.out.println();
+		
+		System.out.println(mathClass.getName() + " Average: " + mathClass.getClassroomAverage());
 	}
 
 }
