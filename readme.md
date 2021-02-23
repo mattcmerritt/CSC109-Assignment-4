@@ -37,6 +37,10 @@ Total Points: 100
 Final average: 96.0
 Final grade: A
 
+Assignment 1; Score: 100.0
+Assignment 2; Score: 92.0
+Assignment 3; Score: 96.0
+
 Alice (Email: alice@example.com), Year 1, Average: 100.0
 Alice's Grade: A
 Bob (Email: bob@example.com), Year 3, Average: 0.0

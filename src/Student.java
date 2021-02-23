@@ -43,6 +43,18 @@ public class Student {
 		updateGrade();
 	}
 	
+	// returns the list of assignments as a printable string
+	public String outputAssignments() {
+		String result = "";
+		for (int i = 0; i < assignments.size(); i++) {
+			result += assignments.get(i);
+			if (i != assignments.size() - 1) {
+				result += "\n"; // only add newline if there is another assignment
+			}
+		}
+		return result;
+	}
+	
 	// getting grade as number
 	public double getCurrentAverage() {
 		if (totalPoints == 0) 

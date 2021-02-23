@@ -27,7 +27,7 @@ public class Assignment {
 	
 	// method to return the grade earned on the assignment
 	public double getGrade() {
-		return pointsEarned / totalPoints;
+		return ((double) pointsEarned / totalPoints) * 100;
 	}
 	
 	public void setName(String name) {
