@@ -25,6 +25,10 @@ public class StudentTest {
 		
 		System.out.println();
 		
+		System.out.println(matt.outputAssignments());
+		
+		System.out.println();
+		
 		Student alice = new Student("Alice", "alice@example.com", 1);
 		Student bob = new Student("Bob", "bob@example.com", 3);
 		Student charles = new Student("Charles", "charles@example.com", 2);
