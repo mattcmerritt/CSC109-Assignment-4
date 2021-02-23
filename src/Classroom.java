@@ -27,4 +27,22 @@ public class Classroom {
 		
 		return result;
 	}
+	
+	public double getClassroomAverage() {
+		double sum = 0;
+		
+		if (roster.length == 0) {
+			return 0;
+		}
+		
+		for (int i = 0; i < roster.length; i++) {
+			sum += roster[i].getCurrentAverage();
+		}
+		sum /= roster.length;
+		return sum;
+	}
+	
+	public String getName() {
+		return name;
+	}
 }

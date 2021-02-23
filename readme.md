@@ -53,4 +53,6 @@ Daniel's Grade: C
 
 Math Class; Students: Alice, Bob, Charles, Daniel
 Empty Class; Students: No students enrolled
+Math Class Average: 65.5
+Empty Class Average: 0.0
 ```
