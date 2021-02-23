@@ -20,6 +20,11 @@ public class Classroom {
 				result += roster[i].getName();
 			}
 		}
+		
+		if (roster.length == 0) {
+			result += "No students enrolled";
+		}
+		
 		return result;
 	}
 }

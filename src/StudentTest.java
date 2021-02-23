@@ -51,8 +51,10 @@ public class StudentTest {
 		System.out.println();
 		
 		Classroom mathClass = new Classroom("Math Class", new Student[] {alice, bob, charles, daniel});
+		Classroom emptyClass = new Classroom("Empty Class", new Student[] {});
 		
 		System.out.println(mathClass);
+		System.out.println(emptyClass);
 	}
 
 }
